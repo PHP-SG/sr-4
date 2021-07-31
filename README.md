@@ -4,10 +4,10 @@ PHP is a language of flexibilty.  Why shouldn't our apps be based on a flexible 
 By this standard:
 -	wares shall have a `process` method
 -	wares (middle, front, back, ...) shall expect injected dependencies into both `__construct` and `process`
-For HTTP Apps:
--	framework shall allow injection for all Sr1 factories and  `Pgs\Sr1\ResponseInterface`, `Pgs\Sr1\ServerRequestInterface`, `Pgs\Sr4\ExitResponseInterface`
--	output of wares can include, not limited to, `Pgs\Sr1\ResponseInterface`, `Pgs\Sr1\ServerRequestInterface`, `Pgs\Sr4\ExitResponseInterface`
-	-	framework shall integrated these into the response and request
+-	For HTTP Apps:
+	-	framework shall allow injection for all Sr1 factories and  `Pgs\Sr1\ResponseInterface`, `Pgs\Sr1\ServerRequestInterface`, `Pgs\Sr4\ExitResponseInterface`
+	-	output of wares can include, not limited to, `Pgs\Sr1\ResponseInterface`, `Pgs\Sr1\ServerRequestInterface`, `Pgs\Sr4\ExitResponseInterface`
+		-	framework shall integrated these into the response and request
 -	framework shall implement
 	-	->get() for retrieving a named service
 	-	->set() for adding a named service
