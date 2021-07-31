@@ -1,5 +1,5 @@
 # PSG SR 4 Flexible Layered DI App Standard
-PHP is a language of flexibilty.  Why shouldn't our apps be based on a flexible standard - make the framework account for flexibility, and allow the users to have the in the code they write.
+PHP is a language of flexibilty.  Why shouldn't our apps be based on a flexible standard - make the framework account for flexibility, and allow the users to have flexibility in the code they write.
 
 By this standard:
 -	wares shall have a `process` method
