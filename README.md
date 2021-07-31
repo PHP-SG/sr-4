@@ -19,7 +19,7 @@ For HTTP Apps:
 Because interfaces do not allow defining only the presense of a method, the fulfillment of the standard is left up to the programmer (a method defined with no arguments in an interface then requires implementers to make all arguments optional).
 
 ## Flow
-See [SR-2](/PHP-SG/sr-2)
+See [SR-2](https://github.com/PHP-SG/sr-2)
 
 ## SR 2 Variances
 -	the parameters and returns are not specified in the interface.  This is to allow the framework to accept a variety of returns, including PSR 7 an SR-1 returns, and then integrate those returns
